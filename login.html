@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="WEB1.css">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header class="sticky">
+        <div class="header-left">
+            <img id="box" src="WALLPAPER/WEB/Luffy.png" height="50" width="50" alt="">
+            <h1 class="sp">Luffy.com</h1>
+        </div>
+        <div class="Item">
+            <div class="nested-items">
+                <a class="y" href="login.html">Login/Sign Up</a>
+            </div>
+        </div>
+    </header>
+        <title>Sign Up</title>
+    <form action="" class="cont">
+        <h2 class="art">Sign Up</h2>
+        <h4>Contant Info</h4>
+        <p>Name: <input type="text" required></p>
+        <fieldset>
+            <legend>GENDER</legend>
+            <p>
+                Male : <input type="radio" name="Gender" id="Male" required>
+                Female : <input type="radio" name="Gender" id="Female" required>
+            </p>
+        </fieldset>
+        <p>Address : <textarea name="Address" id="Address" cols="145 " rows="5" required></textarea></p>
+        <p>Gmail : <input type="email" name="Email" id="Email" required placeholder="xyz@gmail.com"></p>
+        <p>Pincode : <input type="number" name="Pin" id="Pin" required></p>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <section class="w2">
+        <h1>Get subscription <span class="card-icon">💳</span></h1>
+  <h2 class="price">Just for 1$ – 28days</h2>
+  <ul>
+    <li>No ad <span class="emoji">❌</span></li>
+    <li>4K Video Quality <span class="emoji">🎥</span></li>
+    <li>Multiple Devices <span class="emoji">📱💻</span></li>
+    <li>Downloads <span class="emoji">📁</span></li>
+  </ul>
+    </section>
+    <form action="" class="cont">
+        <h2>Payment Info.</h2>
+        <p>Card Type :
+            <select name="Card_type" id="Card_type" class="cont2" required>
+                <option value="">--Select Card Type--</option>
+                <option value="VISA">VISA</option>
+                <option value="MASTERCARD">MASTER CARD</option>
+                <option value="PAYPAL">PAY PAL</option>
+            </select>
+        </p>
+        <p>
+            Card No. : <input type="number" name="Card_No" id="Card_No" required>
+        </p>
+        <p>
+            Expiary Date : <input type= "date" name="EX_date" id="EX_dat" required>
+        </p>
+        <p>
+            CVV : <input type="password" name="cvv" id="cvv" required>
+        </p>
+        <input type="submit" value="Pay Now">
+    </form>
+    <footer>
+        <a href="#">Help</a>
+        <a href="#">Send Feeback</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">&copy;Luffy.com</a>
+    </footer>
+</body>
+</html>
