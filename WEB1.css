@@ -2,7 +2,9 @@ body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 header {
     width: 100%;
     display: flex;
@@ -191,4 +193,5 @@ footer a {
 
   .emoji {
     margin-left: 8px;
+
   }
